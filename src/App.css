@@ -1,38 +1,275 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(90deg, #fff8c1,#edf285,#fff76a);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  display: block;
+  height: 10vh;
+  width:  25vw;
+  margin-left: 38vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container{
+  display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.trophy{
+  margin-top:4vh;
+  margin-left:7vw;
+  height:50vh;
+  width:20vw;
+}
+.trophy-image{
+  height:100%;
+  width:100%;
+}
+.content{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 70vh;
+  width:65vw;
+  margin-left: 2vw;  
+}
+.heading{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+}
+.list{
+  margin-left: 4vw;
+}
+.gift{
+  height: 40vh;
+  width:  52vw;
+  margin-left: 8vw;
+}
+.award-para{
+  margin-left: 4vw;
+}
+.installed{
+  margin-left: 3vw;
+}
+.tools{
+  height: 25vh;
+  width:65vw;
+  margin-left: 20vw;
+}
+.below-tools-text{
+  margin-left: 30vw;
+}
+.line{
+  border-bottom: 3px solid maroon;
+}
+.bottom-text-1{
+  margin-left: 35vw;
+}
+.bottom-text-2{
+  margin-left: 4vw;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  height:8vh;
+  width:100vw;
+  background-color: red;
+}
+.toll-free{
+  display: flex;
+  margin-top: 0vh;
+  font-size: 1.2rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.toll-text{
+  margin-left: .5vw;
 }
+/* .facebook{
+  display: flex;
+  margin-top: 2vh;
+  font-size: 1.2rem;
+  color: white;
+} */
+.flat-icon{
+  width: 3vw;
+  height: 5vh;
+  border-radius: 50%;
+  margin-top: 1.3vh;
+}
+@media screen and (max-width:1350px){
+  .installed{
+    margin-top: 5vh;
+  }
+}
+@media screen and (max-width:1250px){
+  .tools{
+    margin-left: 20vw;
+  }
+  .content{
+    height: 65vh;
+  }
+  .bottom-text-1{
+    margin-left: 30vw;
+  }
+  .installed{
+    margin-top: 15vh;
+  }
+  .gift{
+    height: 35vh;
+  }
+}
+@media screen and (max-width:1100px){
+  .installed{
+    margin-top: 12vh;
+  }
+}
+@media screen and (max-width:1000px){
+  .installed{
+    margin-top: 15vh;
+  }
+  .below-tools-text{
+    margin-left: 22vw;
+  }
+}
+@media screen and (max-width:900px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .installed{
+    margin-top: 17vh;
   }
-  to {
-    transform: rotate(360deg);
+  .toll-free{
+    font-size: 1rem;
   }
+  .flat-icon{
+  width: 3vw;
+  height: 5vh;
+  border-radius: 50%;
+  margin-top: 1.3vh;
+  }
+ 
+}
+@media screen and (max-width:700px){
+  .main-container{
+    display: block;
+  }
+  .trophy{
+    margin-top:2vh;
+    margin-left:30vw;
+    width:35vw;
+  }
+  .content{
+    display: flexbox;
+    height: 57vh;
+    width:98vw;
+    margin-left: 1vw;   
+  }
+  .flat-icon{
+    width: 3vw;
+    height: 4vh;
+    }
+    .gift{
+      width:80vw;
+    }
+    .logo{
+      display: block;
+      height: 14vh;
+      width:  35vw;
+      margin-left: 30vw;
+    }
+    .heading{
+      font-weight: bold;
+      font-size: 1rem;
+      margin-left: 1vw;
+    }
+}
+@media screen and (max-width:600px){
+  .toll-free{
+    margin-top: 1vh;
+  }
+  .flat-icon{
+    width: 2.5vw;
+    height: 3.5vh;
+   }
+   .logo{
+     width: 50vw;
+   }
+   .trophy{
+     height: 40vh;
+   }
+   .heading{
+     font-size:.8rem;
+     margin-left: 0px;
+   }
+   .list{
+     margin-right: 2vw;
+   }
+   .award-para{
+     margin-right: 2vw;
+   }
+   .installed{
+     margin-top: 20vh;
+     margin-left: 6vw;
+   }
+   .tools{
+    margin-left: 10vw;
+    width: 82vw;
+  }
+  .below-tools-text{
+    margin-left: 3vw;
+    font-size: .9rem;
+  }
+  .bottom-text-1{
+    margin-left: 4vw;
+  }
+  .toll-text{
+    font-size: .9rem;
+  }
+}
+@media screen and (max-width:550px){
+  .installed{
+    margin-top: 24vh;
+  }
+  .below-tools-text{
+    margin-left: 1vw;
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width:500px){
+  .below-tools-text{
+    font-size: .75rem;
+  }
+  .heading{
+    font-size:.7rem;
+  }
+  .toll-text{
+    font-size: .8rem;
+  }
+  .flat-icon{
+    width: 2vw;
+    height: 3vh;
+   }
+}
+@media screen and (max-width:414px){
+  .installed {
+    margin-top: 28vh;
+  }
+  .heading {
+    font-size: .59rem;
+  }
+  .flat-icon {
+    width: 2vw;
+    height: 2vh;
+  }
+  .toll-text {
+    font-size: .7rem;
+   }
+}
+@media screen and (max-width:360px){
+  .installed {
+    margin-top: 43vh;
+  }
+  .flat-icon {
+    width: 2vw;
+    height: 2vh;
+  }
+  footer{
+    height: 6vh;
+  }
+  .toll-text {
+    font-size: .6rem;
+   }
 }
